@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 Plugin Name: Custom Colors Palette by Promo EPEC
 Plugin URI: https://github.com/Neyer13
@@ -11,23 +11,23 @@ License: GPL2
 function mytheme_setup_theme_supported_features() {
     add_theme_support( 'editor-color-palette', array(
         array(
-            'name' => __( 'strong-magenta', 'epec-custom-palette' ),
-            'slug' => 'strong-magenta',
+            'name' => __( 'brand-color-1', 'epec-custom-palette' ),
+            'slug' => 'brand-color-1',
             'color' => '#6128A1',
         ),
         array(
-            'name' => __( 'light-grayish-magenta', 'epec-custom-palette' ),
-            'slug' => 'light-grayish-magenta',
+            'name' => __( 'brand-color-2', 'epec-custom-palette' ),
+            'slug' => 'brand-color-2',
             'color' => '#E94B59',
         ),
         array(
             'name' => __( 'Very Dark Grey', 'epec-custom-palette' ),
-            'slug' => 'very-light-gray',
+            'slug' => 'very-dark-gray',
             'color' => '#111111',
         ),
         array(
             'name' => __( 'white', 'epec-custom-palette' ),
-            'slug' => 'very-dark-gray',
+            'slug' => 'white',
             'color' => '#FFFFFF',
         ),
     ) );
